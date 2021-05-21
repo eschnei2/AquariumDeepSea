@@ -1,0 +1,54 @@
+.body {
+    background-color: lightblue;
+}
+
+.header {
+    background-color: blue;
+    /* display: flex; */  /* Display the child items in a Flex layout */
+    font-size: 20px;
+    border: solid black;
+    padding: .05em;
+    margin: .0em .0em;
+    text-align : center;
+} 
+
+.h2{
+    text-align: left;
+}
+
+.newaside {
+    border: solid black;
+    padding-left: 15px;
+    float: right;
+    font-style: italic;
+    color: blue; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px;
+    max-width: 200px;
+    overflow: scroll; 
+  }
+
+.List {
+    background-color: aqua;
+    border: solid black;
+    padding-left: 15px;
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+.fishList {
+    border: solid black;
+    padding-left: 15px;
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+}
+
+.pageHeader {
+    text-align : center;
+}
